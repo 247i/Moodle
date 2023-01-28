@@ -1,0 +1,66 @@
+[Tue Dec 05 09:43:03.183266 2017] [ssl:warn] [pid 2296:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 05 09:43:03.480410 2017] [ssl:warn] [pid 2296:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\Public\\PortableApps\\Moodle\\server\\php\\ext\\php_intl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+Tue Dec  5 09:43:04 2017 (3084): Fatal Error Unable to write base address
+[Mon Sep 10 09:59:06.672948 2018] [ssl:warn] [pid 9160:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 10 09:59:06.717065 2018] [core:warn] [pid 9160:tid 696] AH00098: pid file C:/Mega/PortableApps/Moodle/server/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 10 09:59:06.855434 2018] [ssl:warn] [pid 9160:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Sep 10 09:59:07.152223 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Sep 10 09:59:07.152223 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Sep 10 09:59:07.152223 2018] [core:notice] [pid 9160:tid 696] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Mega/PortableApps/Moodle/server/apache -f conf\\httpd.conf'
+[Mon Sep 10 09:59:07.158239 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00418: Parent: Created child process 14500
+[Mon Sep 10 09:59:07.850079 2018] [ssl:warn] [pid 14500:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 10 09:59:08.000479 2018] [ssl:warn] [pid 14500:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Sep 10 09:59:08.029557 2018] [mpm_winnt:notice] [pid 14500:tid 652] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 10 10:02:03.254689 2018] [:error] [pid 14500:tid 2016] [client 127.0.0.1:57757] PHP Notice:  Use of undefined constant NO_DEBUG_DISPLAY - assumed 'NO_DEBUG_DISPLAY' in C:\\Mega\\PortableApps\\Moodle\\server\\moodle\\lib\\weblib.php on line 3124, referer: http://localhost/install.php
+[Mon Sep 10 10:02:03.257705 2018] [:error] [pid 14500:tid 2016] [client 127.0.0.1:57757] PHP Notice:  Use of undefined constant NO_DEBUG_DISPLAY - assumed 'NO_DEBUG_DISPLAY' in C:\\Mega\\PortableApps\\Moodle\\server\\moodle\\lib\\weblib.php on line 3132, referer: http://localhost/install.php
+[Mon Sep 10 10:02:03.259710 2018] [:error] [pid 14500:tid 2016] [client 127.0.0.1:57757] Debugging: cURL request for "https://download.moodle.org/download.php/direct/langpack/3.5/languages.md5" failed with: Could not resolve host: download.moodle.org (6) in \r\n* line 1407 of \\lib\\filelib.php: call to debugging()\n* line 511 of \\lib\\componentlib.class.php: call to download_file_content()\n* line 458 of \\lib\\componentlib.class.php: call to component_installer->get_all_components_md5()\n* line 390 of \\lib\\componentlib.class.php: call to component_installer->get_component_md5()\n* line 285 of \\lib\\componentlib.class.php: call to component_installer->need_upgrade()\n* line 804 of \\lib\\componentlib.class.php: call to component_installer->install()\n* line 665 of \\lib\\componentlib.class.php: call to lang_installer->install_language_pack()\n* line 383 of \\install.php: call to lang_installer->run()\n, referer: http://localhost/install.php
+zend_mm_heap corrupted
+[Mon Sep 10 10:18:05.486633 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00428: Parent: child process 14500 exited with status 1 -- Restarting.
+[Mon Sep 10 10:18:05.825149 2018] [ssl:warn] [pid 9160:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Sep 10 10:18:05.856408 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Sep 10 10:18:05.857410 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Sep 10 10:18:05.857410 2018] [core:notice] [pid 9160:tid 696] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Mega/PortableApps/Moodle/server/apache -f conf\\httpd.conf'
+[Mon Sep 10 10:18:05.872985 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00418: Parent: Created child process 12948
+Apache server shutdown initiated...
+sl:warn] [pid 12948:tid 716] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 10 10:18:06.573242 2018] [ssl:warn] [pid 12948:tid 716] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Sep 10 10:18:06.593877 2018] [mpm_winnt:notice] [pid 12948:tid 716] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 10 10:19:03.807786 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 10 10:19:05.810796 2018] [mpm_winnt:notice] [pid 12948:tid 716] AH00364: Child: All worker threads have exited.
+[Mon Sep 10 10:19:05.864599 2018] [mpm_winnt:notice] [pid 9160:tid 696] AH00430: Parent: Child process 12948 exited successfully.
+[Mon Sep 10 10:20:25.401941 2018] [ssl:warn] [pid 17504:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 10 10:20:25.533291 2018] [ssl:warn] [pid 17504:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Sep 10 10:20:25.558358 2018] [mpm_winnt:notice] [pid 17504:tid 680] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Mon Sep 10 10:20:25.558358 2018] [mpm_winnt:notice] [pid 17504:tid 680] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Mon Sep 10 10:20:25.558358 2018] [core:notice] [pid 17504:tid 680] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Mega/PortableApps/Moodle/server/apache -f conf\\httpd.conf'
+[Mon Sep 10 10:20:25.562558 2018] [mpm_winnt:notice] [pid 17504:tid 680] AH00418: Parent: Created child process 552
+Apache server shutdown initiated...
+sl:warn] [pid 552:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 10 10:20:26.285481 2018] [ssl:warn] [pid 552:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Sep 10 10:20:26.308542 2018] [mpm_winnt:notice] [pid 552:tid 640] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 10 10:20:41.528440 2018] [mpm_winnt:notice] [pid 17504:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 10 10:20:43.532003 2018] [mpm_winnt:notice] [pid 552:tid 640] AH00364: Child: All worker threads have exited.
+[Mon Sep 10 10:20:43.576381 2018] [mpm_winnt:notice] [pid 17504:tid 680] AH00430: Parent: Child process 552 exited successfully.
+[Thu Sep 13 10:32:35.192553 2018] [ssl:warn] [pid 15160:tid 704] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 13 10:32:35.319891 2018] [ssl:warn] [pid 15160:tid 704] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Sep 13 10:32:35.526441 2018] [mpm_winnt:notice] [pid 15160:tid 704] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Thu Sep 13 10:32:35.526441 2018] [mpm_winnt:notice] [pid 15160:tid 704] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Thu Sep 13 10:32:35.527449 2018] [core:notice] [pid 15160:tid 704] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Mega/PortableApps/Moodle/server/apache -f conf\\httpd.conf'
+[Thu Sep 13 10:32:35.530451 2018] [mpm_winnt:notice] [pid 15160:tid 704] AH00418: Parent: Created child process 15864
+Apache server shutdown initiated...
+sl:warn] [pid 15864:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 13 10:32:36.341608 2018] [ssl:warn] [pid 15864:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Sep 13 10:32:36.363668 2018] [mpm_winnt:notice] [pid 15864:tid 720] AH00354: Child: Starting 150 worker threads.
+[Thu Sep 13 11:06:10.095863 2018] [mpm_winnt:notice] [pid 15160:tid 704] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 13 11:06:12.097397 2018] [mpm_winnt:notice] [pid 15864:tid 720] AH00364: Child: All worker threads have exited.
+[Thu Sep 13 11:06:12.148528 2018] [mpm_winnt:notice] [pid 15160:tid 704] AH00430: Parent: Child process 15864 exited successfully.
